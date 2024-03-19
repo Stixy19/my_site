@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom right, rgba(143, 79, 157, 1), rgba(36, 31, 33, 1));
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: weight;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    width: 100%;
+    /*   max-width: 1200px;*/
+    margin: 0 auto;
+    padding-left: 350px;
+    padding-right: 350px;
+    height: 80px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(50px);
+    border: 3px solid #FFFFFF;
+
+}
+
+.header i {
+    transition: color 0.7s ease;
+    cursor: pointer;
+}
+
+.header i:hover {
+    color: rgba(234, 1, 191, 1);
+
+}
+
+.header a {
+    display: block;
+    /* transition: color 0.3s ease, text-decoration 0.3s ease;*/
+    text-decoration: none;
+}
+
+.header a i {
+    color: #FFFFFF;
+}
+
+.container {
+
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+img {
+    width: 560px;
+    border: 3px solid #FFFFFF;
+}
+
+.info {
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.name {
+    width: fit-content;
+    height: fit-content;
+    line-height: 2;
+}
+
+.jobTitle {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 40px;
+    line-height: 2;
+}
+
+
+.hardSkills {
+    width: fit-content;
+    height: fit-content;
+    line-height: 2;
+    margin-top: 40px;
+    max-height: 100px;
+    /* фиксированная высота текста */
+    overflow: hidden;
+    max-height: none;
+    /* развернутый текст */
+}
+
+
+
+.education {
+    width: fit-content;
+    height: fit-content;
+    line-height: 2;
+    margin-top: 40px;
+}
+
+.experiense {
+    width: fit-content;
+    height: fit-content;
+    line-height: 2;
+    margin-top: 40px;
+}
+
+.aboutMe {
+    width: fit-content;
+    height: fit-content;
+    line-height: 2;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
