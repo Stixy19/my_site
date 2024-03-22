@@ -91,10 +91,8 @@ img {
     line-height: 2;
     margin-top: 40px;
     max-height: 100px;
-    /* фиксированная высота текста */
     overflow: hidden;
     max-height: none;
-    /* развернутый текст */
 }
 
 
@@ -121,10 +119,6 @@ img {
     margin-bottom: 40px;
 }
 
-
-
-
-/* Стили для текстового поля с кнопкой "Далее" */
 .limiter {
     max-height: 310px;
     overflow: hidden;
